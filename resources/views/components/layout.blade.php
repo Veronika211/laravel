@@ -9,16 +9,15 @@
 </head>
 <body>
 <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            
-            
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
-                <li class="nav-item ">
-                        <a class="nav-link" href="/">Movies</a>
+                <li class="nav-item " style="color:black">
+                        <a class="nav-link" href="/" style="color:black">Movies</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="/actors">Actors</a>
+                    <li class="nav-item " style="color:black">
+                        <a class="nav-link" href="/actors" style="color:black">Actors</a>
                     </li>
                    
                    

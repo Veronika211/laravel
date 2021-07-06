@@ -4,12 +4,12 @@
     </x-slot>
     <div class='container'>
         <div class='row mt-2'>
-            <h1>Update {{$movie->title}}</h1>
+            <h3>Update movie: {{$movie->title}}</h3>
 
         </div>
         <div class="row mt-2">
             <div class="col-12">
-                <form action="/movies/{{$movie->id}}" method="post">
+                <form action="/movies/{{$movie->id}}" style="width:50%" method="post">
                     @csrf
                     <label>ID</label>
                     <input type="number" disabled class="form-control" value="{{$movie->id}}">
@@ -22,7 +22,7 @@
                 {{$movie->plot}}
 
             </textarea>
-                    <button class="form-control btn btn-success mt-2">Update</button>
+                    <button class="form-control btn btn-success mt-2" style="background-color:lightblue">Update</button>
                     <button name='delete' class="form-control btn btn-danger mt-2">Delete</button>
                 </form>
             </div>
@@ -32,7 +32,7 @@
         </div>
         <div class="row mt-2">
             <div class="col-6">
-                <table class="table table-dark">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th>First name</th>
@@ -76,7 +76,7 @@
                     </select>
                     <label>Role</label>
                     <input type="text" name="role" class="form-control">
-                    <button class="form-control btn btn-primary mt-2">Create</button>
+                    <button class="btn btn-secondary btn-lg btn-block">Create</button>
                 </form>
             </div>
         </div>

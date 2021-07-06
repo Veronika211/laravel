@@ -8,7 +8,7 @@
         </div>
         <div class='row mt-2'>
             <div class='col-7'>
-                <table class='table table-dark'>
+                <table class='table table-striped'>
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -40,7 +40,7 @@
                     <input type="text" name="first_name" class='form-control'>
                     <label>Last name</label>
                     <input type="text" name="last_name" class='form-control'>
-                    <button class='form-control btn btn-primary mt-2'>Create</button>
+                    <button class='form-control btn btn-primary mt-2' style="background-color:#5a6268">Create</button>
                 </form>
             </div>
         </div>

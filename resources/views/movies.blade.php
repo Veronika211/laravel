@@ -8,7 +8,7 @@
         </div>
         <div class='row mt-2'>
             <div class='col-7'>
-                <table class='table table-dark'>
+                <table class='table table-striped'>
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -24,7 +24,7 @@
                             <td>{{$movie->length}}min</td>
                             <td>
                                 <a href="/movies/{{$movie->id}}">
-                                    <button class='form-control btn btn-success mt-2'>Update</button>
+                                    <button class='btn btn-info'>Update</button>
                                 </a>
                             </td>
                         </tr>
@@ -41,7 +41,7 @@
                     <input type="number" name="length" class='form-control'>
                     <label>Plot</label>
                     <textarea name="plot" cols="30" rows="10" class='form-control'></textarea>
-                    <button class='form-control btn btn-primary mt-2'>Create</button>
+                    <button class='btn btn-secondary btn-lg btn-block'>Create</button>
                 </form>
             </div>
         </div>
