@@ -41,7 +41,7 @@
                     <input type="number" name="length" class='form-control'>
                     <label>Plot</label>
                     <textarea name="plot" cols="30" rows="10" class='form-control'></textarea>
-                    <button class='btn btn-secondary btn-lg btn-block'>Create</button>
+                    <button class='btn btn-primary btn-lg btn-block'>Create</button>
                 </form>
             </div>
         </div>

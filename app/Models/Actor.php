@@ -10,7 +10,7 @@ class Actor extends Model
     use HasFactory;
 
    
-
+    //ovde oznacavamo ono sto korisnik moze da menja
     protected $fillable=['first_name','last_name'];
     
 }

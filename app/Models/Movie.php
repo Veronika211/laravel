@@ -10,7 +10,7 @@ class Movie extends Model
     use HasFactory;
     protected $fillable=['title','plot','length'];
 
-    
+    //vraca listu glumaca
     public function actors(){
         return $this->hasMany(Role::class);
     }

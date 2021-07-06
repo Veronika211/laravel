@@ -11,6 +11,7 @@ class Role extends Model
     
     protected $fillable=['actor_id','movie_id','role'];
 
+    //vraca glumca ciji je id 'actor_id'
     public function actor(){
         return $this->belongsTo(Actor::class);
     }

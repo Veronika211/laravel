@@ -14,7 +14,7 @@ use App\Http\Controllers\RolesController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//kada odemo na / pozvace se index klase moviecontroller
 Route::get('/', [MovieController::class, 'index']);
 Route::get('/movies/{id}', [MovieController::class, 'edit']);
 Route::post('/movies', [MovieController::class, 'store']);
